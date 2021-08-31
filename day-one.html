@@ -16,7 +16,7 @@
 </head>
 <body>
     <table>
-        <caption>Weekly Schedule</caption>
+        <h3 style="text-align: center;">Weekly Schedule</h3>
         <tr>
             <th></th>
             <th>Monday</th>
@@ -31,24 +31,60 @@
         <tr>
             <th>Morning</th>
             <td class="bg-aqua text-center" colspan="5">School</td>
-            <td></td>
+            <td>Study</td>
+            <td>Short Run</td>
 
         </tr>
 
         <tr>
             <th>Afternoon</th>
-            <td></td>
-            <td></td>
+            <td>Library</td>
+            <td>Library</td>
             <td class="bg-aqua text-center" rowspan="2">Long Run</td>
             <td>Meeting</td>
+            <td>Free</td>
             <td>Free</td>
             <td>Free</td>
         </tr>
 
         <tr>
             <th>Evening</th>
+            <td>Short Run</td>
+            <td>Free</td>
+            <td>Free</td>
+            <td>Short Run</td>
+            <td>Short Run</td>
+            <td>Group Study</td>
         </tr>
     
     </table>
+    
+    <br>
+    <br>
+
+    <h4>Please enter your information:</h4>
+    <form>
+        <label for="customer">Customer Name</label>
+        <input type="text" id="customer" placeholder="John Smith">
+    </form>
+
+    <form>
+        <label for="birthday">Date of Birth</label>
+        <input type="date" id="birthday" placeholder="mm/dd/yyyy">
+    </form>
+    
+    <br>
+
+    <h4>What is your preferred method of contact?</h4>
+    <form>
+        <input type="radio" id="contact-method1" name="contact" value="phone">
+        <label for="contact-method1">Phone</label>
+
+        <input type="radio" id="contact-method2" name="contact" value="text">
+        <label for="contact-method2">Text</label>
+
+        <input type="radio" id="contact-method3" name="contact" value="e-mail">
+        <label for="contact-method3">E-mail</label>
+    </form>
 </body>
 </html>
