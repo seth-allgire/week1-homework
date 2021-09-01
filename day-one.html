@@ -66,18 +66,18 @@
     <form>
         <label for="customer">Customer Name</label>
         <input type="text" id="customer" placeholder="John Smith">
-    </form>
+    
 
     <form>
         <label for="birthday">Date of Birth</label>
         <input type="date" id="birthday" placeholder="mm/dd/yyyy">
-    </form>
+    
     
     <br>
 
     <h4>What is your preferred method of contact?</h4>
     <form>
-        <input type="radio" id="contact-method1" name="contact" value="phone">
+        <input type="radio" id="contact-method1" name="contact" value="phone" checked>
         <label for="contact-method1">Phone</label>
 
         <input type="radio" id="contact-method2" name="contact" value="text">
@@ -85,6 +85,35 @@
 
         <input type="radio" id="contact-method3" name="contact" value="e-mail">
         <label for="contact-method3">E-mail</label>
+    
+
+    <h4>What is your preferred method of contact?</h4>
+    
+        <input type="checkbox" id="" name="contact" value=" checked>
+        <label for="">Phone</label>
+
+        <input type="checkbox" id="" name="contact" value">
+        <label for="">Text</label>
+
+        <input type="checkbox" id="" name="contact" value="">
+        <label for="">E-mail</label>
+    
+        <br>
+
+        <h4>Contact Time</h4>
+        <label for="contact-time">Contact Time</label>
+        <select id="contact-time" name="contact-time">
+            <option value="morning">Morning</option>
+            <option value="afternoon" selected>Afternoon</option>
+            <option value="evening">Evening</option>
+            <option value="night">Night</option>
+        </select>
+       
+        <br>
+        <br>
+
+        <button>Submit Form</button>
     </form>
+
 </body>
 </html>
